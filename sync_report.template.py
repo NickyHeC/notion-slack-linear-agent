@@ -6,6 +6,9 @@ under a team, then generates a comparison table as a markdown file.
 
 Defaults to the current week (Monday–Sunday) unless overridden.
 
+Copy this file to sync_report.py and update SPRINT_PAGE, SLACK_CHANNEL,
+and LINEAR_TEAM with your company-specific values.
+
 Usage:
     python sync_report.py                                          # current week
     python sync_report.py --week "3/30 - 4/5"                      # specific week

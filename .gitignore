@@ -5,3 +5,6 @@ __pycache__/
 *.pyc
 .DS_Store
 sync_report_*.md
+
+# Local scripts (contain company-specific config); use *.template.py as starting point
+sync_report.py
