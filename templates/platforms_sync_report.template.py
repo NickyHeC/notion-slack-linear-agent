@@ -6,14 +6,14 @@ under a team, then generates a comparison table as a markdown file.
 
 Defaults to the current week (Monday–Sunday) unless overridden.
 
-Copy this file to sync_report.py and update SPRINT_PAGE, SLACK_CHANNEL,
-and LINEAR_TEAM with your company-specific values.
+Copy this file to ../platforms_sync_report.py and update SPRINT_PAGE,
+SLACK_CHANNEL, and LINEAR_TEAM with your company-specific values.
 
 Usage:
-    python sync_report.py                                          # current week
-    python sync_report.py --week "3/30 - 4/5"                      # specific week
-    python sync_report.py --sprint "My Sprint Page"                 # custom sprint
-    python sync_report.py --channel general --team Engineering      # custom sources
+    python platforms_sync_report.py                                  # current week
+    python platforms_sync_report.py --week "3/30 - 4/5"              # specific week
+    python platforms_sync_report.py --sprint "My Sprint Page"        # custom sprint
+    python platforms_sync_report.py --channel general --team Eng     # custom sources
 """
 
 import asyncio

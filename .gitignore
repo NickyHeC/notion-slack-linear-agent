@@ -4,7 +4,15 @@ venv/
 __pycache__/
 *.pyc
 .DS_Store
-sync_report_*.md
 
-# Local scripts (contain company-specific config); use *.template.py as starting point
-sync_report.py
+# Local scripts (contain company-specific config); copy from templates/ to get started
+platforms_sync_report.py
+sync_to_linear.py
+slack_tasks_compilation.py
+task_to_linear.py
+
+# Generated reports and agent output
+sprint_todos_*.md
+slack_tasks.md
+sync_to_linear_output.md
+task_to_linear_output.md

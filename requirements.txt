@@ -1,3 +1,4 @@
 dedalus-labs
 dedalus-mcp
 python-dotenv
+openpyxl
